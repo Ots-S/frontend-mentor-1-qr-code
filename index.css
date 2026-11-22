@@ -17,28 +17,27 @@ body {
   text-align: center;
   align-items: center;
   height: 499px;
-  width: 320px;
-  padding: 16px 16px 40px 16px;
+  width: min(100% - 2rem, 320px);
+  padding: 1rem 1rem 2.5rem 1rem;
   background-color: white;
   border-radius: 20px;
   box-sizing: border-box;
 
   .image {
     width: 100%;
-    height: 100%;
     border-radius: 20px;
   }
 
   .title {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
     color: hsl(218, 44%, 22%);
     padding: 0 16px;
   }
 
   .content {
     color: hsl(216, 15%, 48%);
-    font-size: 15px;
+    font-size: 0.9375rem;
     padding: 0 16px;
   }
 }
